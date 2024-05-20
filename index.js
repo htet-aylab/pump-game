@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const TelegramBot = require("node-telegram-bot-api");
 
-const TOKEN = "6726144774:AAE464s-DzHRlW-1qJFxQlISH30nzXMb480";
+const TOKEN = "6726144774:AAH9H84BLdA8xvLD4D2E3HIsIvalp-lRs3Y";
 const gameName = "GamiflyGame";
 const port = process.env.PORT || 3000;
 
