@@ -26,7 +26,7 @@ jobs:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         PORT: 3000
       run: |
-        nohup npm start &
+        node index.js
 
     - name: Send Telegram notification
       uses: appleboy/telegram-action@v0.1.0
